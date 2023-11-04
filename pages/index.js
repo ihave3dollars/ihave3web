@@ -68,27 +68,32 @@ export default function Home() {
         <div className="items-center   justify-start flex ">
           <Image
             src="/moneyfly2.gif"
-            width={150}
-            height={150}
-            className="md:w-[150px] mx-4 w-[100px]"
+            width={100}
+            height={100}
+            className="md:w-[100px] mx-4 w-[100px]"
           ></Image>
           <Image
             src="/moneyfly2.gif"
-            width={150}
-            height={150}
-            className="md:w-[150px] md:block hidden mx-4 w-[100px]"
+            width={100}
+            height={100}
+            className="md:w-[100px] md:block hidden mx-4 w-[100px]"
           ></Image>
           <Image
             src="/moneyfly2.gif"
-            width={150}
-            height={150}
-            className="md:w-[150px] md:block hidden mx-4 w-[100px]"
+            width={100}
+            height={100}
+            className="md:w-[100px] md:block hidden mx-4 w-[100px]"
           ></Image>
         </div>
         <div className="flex flex-col">
-          <div className="text-white bg-[#ff808b] underline  text-4xl ">
+          <div className="flex items-center justify-center">
+          <Image className=" px-2"  src="/patricksuit2.png" width={150} height={100}></Image>
+
+          <div className="text-white bg-[#ff808b] underline text-xl md:text-4xl ">
             Join Community !!!!
           </div>
+          <Image className="px-2" src="/patricksuit2.png" width={150} height={100}></Image>
+</div>
           <div className="flex w-full justify-center">
             <Link href="https://t.me/ihave3" target="_blank">
             
@@ -160,7 +165,7 @@ export default function Home() {
             className="pt-12 "
           ></Image>
           <Image
-            src="/16.jpeg"
+            src="/buyyy.jpeg"
             width={300}
             height={100}
             className="pt-12"

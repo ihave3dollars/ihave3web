@@ -37,9 +37,9 @@ export default function Memes() {
 
      </div>
      <div className="flex md:flex-row flex-col w-full items-center  justify-between px-12">
-     <Image src="/21.jpeg" width={400} height={200} className="max-h-[300px]"></Image>
-     <Image src="/18.jpg" width={400} height={200}className="min-h-[300px]"></Image>
-     <Image src="/22.jpeg" width={400} height={200} className="min-h-[300px]"></Image>
+     <Image src="/21.jpeg" width={350} height={200} className="max-h-[300px]"></Image>
+     <Image src="/18.jpg" width={350} height={200}className="min-h-[300px]"></Image>
+     <Image src="/22.jpeg" width={350} height={200} className="m-h-[300px]"></Image>
      
      </div>
     </div>

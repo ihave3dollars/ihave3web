@@ -10,7 +10,7 @@ export default function Balances() {
       <main className=" text-black flex md:flex-row flex-col items-center justify-between">
         <Image className="md:block hidden px-2"  src="/patricksuit2.png" width={150} height={100}></Image>
         <div>
-          <div className="text-5xl flex">BALANCES</div>
+          <div className="text-5xl mx-2 flex">BALANCES</div>
          {/* <table class="table-auto">
             <tr className="bg-white  underline text-xl ">
               <th>TOKEN</th>
@@ -33,7 +33,7 @@ export default function Balances() {
             
             </tbody>
           </table>*/}
-          <div className="text-5xl bg-[#ff808b]">Will be announced here !</div>
+          <div className="text-5xl break-all mx-2 bg-[#ff808b]">will appear here after buys!</div>
           
         </div>
         <Image className="px-2" src="/patricksuit.png" width={100} height={100}></Image>
