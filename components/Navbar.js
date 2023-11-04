@@ -84,7 +84,7 @@ export default function Navbar() {
                
                  <div ><div className={righteous.className}>
             <div className="px-4 text-white rounded-3xl flex items-center py-4 justify-center border border-white bg-flowers bg-cover">
-                <Link href="https://app.uniswap.org/#/tokens/ethereum/0x13d0ff7b89824b0862725cce4b22bcdcf196473f">
+                <Link href="https://app.uniswap.org/swap?outputCurrency=0x2a172e18cdab77d9f50c8e900e9bf7602489d989">
                 Buy Now</Link>
             </div></div>
           </div>
