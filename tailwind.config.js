@@ -14,7 +14,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'home':"url(../public/home.jpg)",
         'flowers':"url(../public/flowers.jpg)",
-        'bikini':"url(../public/bikini.jpeg)"
+        'bikini':"url(../public/bikini.jpeg)",
+        'krab':"url(../public/krab.jpeg)"
       },
     },
   },

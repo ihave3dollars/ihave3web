@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import Memes from "@/containers/Memes";
 import Shit from "@/containers/Shit";
 import Link from "next/link";
+import Balances from "@/containers/Balances";
 const inter = Inter({ subsets: ["latin"] });
 
 //#ff808b
@@ -58,8 +59,11 @@ export default function Home() {
           $IHAVE3
         </div>
 
-        <div className="text-black bg-[#ff808b] underline my-12 text-3xl break-all">
-          Contract address: 0x00000000000000000000000000
+        <div className="text-black bg-[#ff808b] text-center underline mt-12 text-lg md:text-3xl break-all">
+          Contract address: 
+        </div>
+        <div className="text-black bg-[#ff808b] text-center underline mb-12 text-lg md:text-3xl break-all">
+         0x2A172e18cdab77d9F50c8E900E9Bf7602489D989
         </div>
         <div className="items-center   justify-start flex ">
           <Image
@@ -98,12 +102,13 @@ export default function Home() {
               size={56}
               className="bg-[#ff808b] p-2 border cursor-pointer border-black"
             ></FaXTwitter></Link>
+            <Link  target="_blank" href="https://app.uniswap.org/swap?outputCurrency=0x2a172e18cdab77d9f50c8e900e9bf7602489d989">
             <Image
               src="/uni.png"
               width={56}
               height={56}
               className="bg-[#ff808b] cursor-pointer p-2 border border-black"
-            ></Image>
+            ></Image></Link>
           </div>
         </div>
 
@@ -170,6 +175,7 @@ export default function Home() {
       </main>
 
       <Memes></Memes>
+      <Balances></Balances>
       <Shit></Shit>
     </>
   );
